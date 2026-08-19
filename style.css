@@ -9,6 +9,7 @@ h1{
     text-align: center;
     text-wrap: 100px;
     font-size: 50px ;
+    color: rgb(215, 197, 1);
 }
 
 nav{
@@ -25,42 +26,45 @@ main{
     grid-template-areas: "primeiro aside";
 
 }
-.primeiro{
-    width: 100%;
-    color: white;
-    grid-area: "primeiro";
-    flex: 3;
-}
-aside{
+
+/* aside{
     width: 50%;
     size: 100%;
     grid-area: "aside";
     align-items: center;
     flex: 1;
-}
+} */
 article{
     font-size: 30px;
     color: rgb(215, 44, 1);
     font-family: 'Times New Roman', Times, serif;
 }
 img{
-    width: 100%;
-    size: 100%;
-    padding: 20px;
+    width: 85%;
+    /* size: 100%; */
     align-items: center;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 50px;
+    padding: 20px;
 }
-
+.inicio p{
+    color: white;
+    grid-area: "primeiro";
+    flex: 3;
+    font-size: 18px;
+}
 .historia p{
     color: white;
+    font-size: 18px;
 }
 
 .jogabilidade p{
     color: white;
+        font-size: 18px;
 }
 .jogabilidade li{
     color: white;
+        font-size: 18px;
 }
 
 footer{
