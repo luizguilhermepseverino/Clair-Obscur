@@ -1,0 +1,72 @@
+.Título{
+    background-color: gray;
+    padding: 10px;
+}
+body{
+    background-color: rgb(28, 28, 28);
+}
+h1{
+    text-align: center;
+    text-wrap: 100px;
+    font-size: 50px ;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    color: rgb(215, 197, 1);
+    padding: 10px;
+    font-size: 30px;
+}
+main{
+    display: grid;
+    grid-template-areas: "primeiro aside";
+
+}
+.primeiro{
+    width: 100%;
+    color: white;
+    grid-area: "primeiro";
+    flex: 3;
+}
+aside{
+    width: 50%;
+    size: 100%;
+    grid-area: "aside";
+    align-items: center;
+    flex: 1;
+}
+article{
+    font-size: 30px;
+    color: rgb(215, 44, 1);
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    width: 180%;
+    size: 1000%;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.historia p{
+    color: white;
+}
+
+.jogabilidade p{
+    color: white;
+}
+.jogabilidade li{
+    color: white;
+}
+
+footer{
+    background-color: gray;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-wrap: 100px
+}
